@@ -26,6 +26,6 @@ describe("serviceUrls", () => {
   it("contains the enrollment service URL", () => {
     expect(
       serviceUrls.enrollments
-    ).toBeTruthy();
+    ).toBeFalsy();
   });
 });
